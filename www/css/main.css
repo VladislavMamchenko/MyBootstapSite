@@ -1,0 +1,133 @@
+@media (min-width: 768px) {
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+    .table {
+width: 100%;
+max-width: 100%;
+margin-bottom: 1rem;
+background-color: transparent; }
+    
+    figure {
+        
+        
+        display: inline-block; 
+       
+        padding: 10px; 
+      
+        vertical-align: top; 
+       }
+       figcaption { 
+        text-align: center; 
+       }
+    
+       #futter{
+    
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+    }
+     
+    /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+    @media (min-width: 992px) {
+      /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+      figure {
+        
+        display: inline-block; 
+       
+        padding: 10px; 
+      
+        vertical-align: top; 
+       }
+       figcaption { 
+        text-align: center; 
+       }
+    
+       #futter{
+    
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+    }
+     
+    /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+    @media (min-width: 1200px) {
+      /* Стили для устройств с шириной viewport >1200px */
+      figure {
+        display: inline-block; 
+       
+        padding: 10px; 
+      
+        vertical-align: top; 
+       }
+       figcaption { 
+        text-align: center; 
+       }
+    
+       #futter{
+    
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+    }
+      
+
+#contentinside{
+   
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#firstrow{
+    
+    height: 40px;
+   
+}
+
+.row div {
+    text-align: left;
+    height: auto;
+
+}
+
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+.bg-light {
+    
+}
+
+.bg-dark {
+ 
+}
+
+
+.navbar-light {
+  
+}
+
+.navbar-light {
+   
+}
+
+.text-light{
+    color: #343a40 !important;
+
+}
+
+.text-dark{
+    color: #ffffff !important;
+}
+
+.container-table {
+    width: 100%;
+    height: 300px;
+    
+    margin: 40px auto;
+        margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+
